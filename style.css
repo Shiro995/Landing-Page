@@ -1,0 +1,153 @@
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: Arial;
+    gap: 25px;
+    padding: 0;
+    margin: 0;
+}
+
+
+.header {
+    /* display: flex; */
+    /* flex: 1;  */
+    background-color: #1F2837;
+}
+
+
+.box1 {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    padding-left: 200px;
+    padding-right: 200px;  
+}
+
+.box2 {
+    display: flex;
+    justify-content: space-between;
+    padding: 200px;
+    gap: 50px;
+}
+
+button {
+    color: white;
+    border-radius: 8px;
+    border: 1px solid #3882F6;
+    background-color: #3882F6;
+    width: 100px;
+    height: 30px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.words {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+} 
+
+.image {
+    display: flex;
+    min-width: 400px;
+    min-height: 200px;
+    background-color: grey;
+    align-items: center;
+    justify-content: center;    
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    gap: 10px;
+}
+
+li {
+
+}
+
+a {
+    all: unset;
+}
+
+.body1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    gap: 50px;
+}
+
+.infoheader {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 900;
+}
+.allimages {
+    display: flex;
+    gap: 50px;
+}
+.images {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    width: 150px;
+    align-items: center;
+}
+
+.img {
+    display: flex;
+    width: 150px;
+    height: 150px;
+    border: 2px solid #3882F6; 
+    border-radius: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.body2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #E5E7EB;
+    height: 400px;
+}
+
+.paras{
+    display: flex;
+    flex-direction: column;
+    max-width: 800px;
+
+}
+
+.body3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    
+}
+
+.actionbox {
+    align-items: center;
+    justify-content: space-around;
+    background-color: #3882F6;
+    display: flex;
+    padding: 40px;
+    gap: 50px;
+    width: 1000px;
+    border-radius: 8px;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    background-color:#1F2837;
+    padding: 0;
+    margin: 0;
+}
